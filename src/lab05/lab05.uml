@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="400.0">lab05.saga.ProdutoController</node>
+    <node x="188.0" y="477.0">lab05.saga.SAGAFacade</node>
+    <node x="212.0" y="241.0">lab05.identificavel.CRUD</node>
+    <node x="345.0" y="323.0">lab05.saga.CRUDProduto</node>
+    <node x="188.0" y="323.0">lab05.saga.CRUDCliente</node>
+    <node x="245.0" y="164.0">lab05.saga.Fornecedor</node>
+    <node x="104.0" y="0.0">lab05.identificavel.Identificavel</node>
+    <node x="74.5" y="82.0">lab05.identificavel.IdentificavelAbstract</node>
+    <node x="0.0" y="477.0">lab05.util.StringFactory</node>
+    <node x="118.0" y="164.0">lab05.saga.Produto</node>
+    <node x="0.0" y="164.0">lab05.saga.Cliente</node>
+    <node x="0.0" y="323.0">lab05.saga.CRUDFornecedor</node>
+    <node x="222.0" y="400.0">lab05.saga.ErrorThrower</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab05.saga.CRUDFornecedor" target="lab05.identificavel.CRUD">
+      <point x="0.0" y="-16.0" />
+      <point x="84.0" y="298.0" />
+      <point x="226.83333333333334" y="298.0" />
+      <point x="-29.666666666666657" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.CRUDCliente" target="lab05.identificavel.CRUD">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="lab05.identificavel.IdentificavelAbstract" target="lab05.identificavel.Identificavel">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.Fornecedor" target="lab05.identificavel.IdentificavelAbstract">
+      <point x="0.0" y="-16.0" />
+      <point x="309.5" y="139.0" />
+      <point x="236.16666666666669" y="139.0" />
+      <point x="64.66666666666669" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.CRUDProduto" target="lab05.identificavel.CRUD">
+      <point x="0.0" y="-16.0" />
+      <point x="418.0" y="298.0" />
+      <point x="286.1666666666667" y="298.0" />
+      <point x="29.666666666666686" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.Produto" target="lab05.identificavel.IdentificavelAbstract">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.Cliente" target="lab05.identificavel.IdentificavelAbstract">
+      <point x="0.0" y="-16.0" />
+      <point x="49.0" y="139.0" />
+      <point x="106.83333333333331" y="139.0" />
+      <point x="-64.66666666666669" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8510674637062341" x="23.918886542678706" y="431.5661070304302" />
+  <SelectedNodes>
+    <node>lab05.util.StringFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

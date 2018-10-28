@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="29.5" y="159.0">lab05.identificavel.CRUD</node>
+    <node x="29.5" y="0.0">lab05.identificavel.Identificavel</node>
+    <node x="0.0" y="82.0">lab05.identificavel.IdentificavelAbstract</node>
+    <node x="0.0" y="241.0">lab05.identificavel.CRUDAbstract</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab05.identificavel.CRUDAbstract" target="lab05.identificavel.CRUD">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="lab05.identificavel.IdentificavelAbstract" target="lab05.identificavel.Identificavel">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>lab05.identificavel.IdentificavelAbstract</node>
+    <node>lab05.identificavel.Identificavel</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="345.0" y="164.0">lab05.saga.ProdutoController</node>
+    <node x="122.0" y="-85.0">lab05.saga.SAGAFacade</node>
+    <node x="360.5" y="82.0">lab05.saga.CRUDProduto</node>
+    <node x="0.0" y="164.0">lab05.saga.CRUDCliente</node>
+    <node x="176.5" y="82.0">lab05.saga.Fornecedor</node>
+    <node x="380.0" y="0.0">lab05.saga.Produto</node>
+    <node x="19.5" y="82.0">lab05.saga.Cliente</node>
+    <node x="157.0" y="164.0">lab05.saga.CRUDFornecedor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab05.saga.ProdutoController" target="lab05.saga.CRUDProduto">
+      <point x="59.0" y="-16.0" />
+      <point x="492.5" y="139.0" />
+      <point x="482.16666666666663" y="139.0" />
+      <point x="48.66666666666663" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.SAGAFacade" target="lab05.saga.ProdutoController">
+      <point x="56.666666666666686" y="-16.0" />
+      <point x="297.6666666666667" y="236.0" />
+      <point x="477.75" y="236.0" />
+      <point x="44.25" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.CRUDCliente" target="lab05.saga.Cliente">
+      <point x="34.25" y="-16.0" />
+      <point x="102.75" y="139.0" />
+      <point x="93.0" y="139.0" />
+      <point x="24.5" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.CRUDFornecedor" target="lab05.saga.Fornecedor">
+      <point x="-42.0" y="-16.0" />
+      <point x="199.0" y="139.0" />
+      <point x="208.75" y="139.0" />
+      <point x="-32.25" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.SAGAFacade" target="lab05.saga.CRUDFornecedor">
+      <point x="11.333333333333314" y="-16.0" />
+      <point x="252.33333333333331" y="216.0" />
+      <point x="283.0" y="216.0" />
+      <point x="42.0" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.CRUDProduto" target="lab05.saga.Produto">
+      <point x="-36.5" y="-16.0" />
+      <point x="397.0" y="57.0" />
+      <point x="406.75" y="57.0" />
+      <point x="-26.75" y="16.0" />
+    </edge>
+    <edge source="lab05.saga.SAGAFacade" target="lab05.saga.CRUDCliente">
+      <point x="-56.666666666666686" y="-16.0" />
+      <point x="184.33333333333331" y="236.0" />
+      <point x="34.25" y="236.0" />
+      <point x="-34.25" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="18.5" y="81.0" />
+  <SelectedNodes>
+    <node>lab05.saga.SAGAFacade</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
